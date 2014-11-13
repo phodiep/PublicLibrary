@@ -63,7 +63,7 @@ class Library {
 //        newShelf.addBook(bookToShelve)
 //    }
 //    
-//    func libUnshelf(bookToUnshelve: Book) {
+//    func libUnshelf(bookToUnshelve: Book) -> Shelf {
 //        var shelfBookCurrentlyOn = self.findBookOnShelf(bookToUnshelve)
 //        return shelfBookCurrentlyOn.removeBook(bookToUnshelve)
 //    }
