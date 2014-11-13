@@ -46,15 +46,15 @@ class Library {
     }
     
     func findBookOnShelf(bookToFind: Book) -> Shelf {
-        var returnShelf = Shelf()
+        var shelfLocation = Shelf()
         for shelf in shelves {
             for book in shelf.booksOnShelf {
                 if book === bookToFind {
-                    returnShelf = shelf
+                    shelfLocation = shelf
                 }
             }
         }
-        return returnShelf
+        return shelfLocation
     }
     
 //    Correct placement of the enshelf and unshelf methods
